@@ -104,11 +104,9 @@ void loop() {
       }
     }
   }
-  // Apply colors to pixels
   uint32_t fadedColor = fadeColor(pixels.Color(0, 200, 100), brightness);
   updatePixels(pixels, fadedColor);
   updatePixels(pixels5, fadedColor);
-
   uint32_t fadedColor1 = fadeColor(pixels.Color(0, 200, 100), brightness1);
   updatePixels(pixels1, fadedColor1);
   updatePixels(pixels4, fadedColor1);
